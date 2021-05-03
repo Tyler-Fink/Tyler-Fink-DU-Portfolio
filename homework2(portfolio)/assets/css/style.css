@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: lightyellow;
+    color: mediumblue;
+}
+
+h1, h2, h3 {
+    margin: 20px;
+}
+
+/* ul { 
+    display: flex;
+}*/
+
+li {
+    display: inline-flex;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:yellow
+}
+
+header {
+    display: flex
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    line-height: 60px;
+    background-color: royalblue;
+    border-bottom: 10px solid navy;
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: royalblue;
+    border-bottom: 10px solid navy;
+    margin-top: 0;
+    bottom: 0;
+    line-height: 60px;
+}
+
+img.avitar {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left:120px;
+    top: -80px;
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.text-center {
+    margin: 10px;
+    text-align: center;
+}
+
+.text-right {
+    margin: 10px;
+    text-align: right;
+}
+
+.text-left {
+    margin: 10px;
+    text-align: left;
+}
+
+.directory {
+    position: absolute;
+    text-align: left;
+    left: 60%;
+    top: 1%
+}
+#aboutMe {
+    position: relative;
+}
+
+#preview1 {
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+.preview2 {
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+.preview3 {
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+.preview4 {
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+#contactMe {
+    display: flex;
+    position: relative;
+    margin-bottom: 60px;
+}
